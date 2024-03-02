@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -31,13 +31,13 @@ body {
   gap: 25px;
 }
 
-@media (max-width: 1313px) {
+/* @media (max-width: 1313px) {
   .cards1-wrapper .cards-wrap2 {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-}
+} */
 
 .cards1-wrapper .cards-wrap2 .cards1-card1 {
   width: 99%;
@@ -93,11 +93,11 @@ body {
   );
 }
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
   .for-gradient-card1 {
     width: 100%;
   }
-}
+} */
 
 .for-gradient-card1 .cards1-card1 {
   width: 99%;
@@ -106,7 +106,7 @@ body {
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
-  border: none !important;
+  border: none;
   padding: 20px;
   height: 99%;
 }
@@ -123,19 +123,19 @@ body {
 }
 
 .for-gradient-card1 .cards1-card1 h2 {
-  font-family: "Roboto" !important;
-  margin-bottom: 15px !important;
-  font-size: 24px !important;
+  font-family: "Roboto";
+  margin-bottom: 15px;
+  font-size: 24px;
   background: linear-gradient(
     90deg,
     hsl(217, 100%, 50%) 0%,
     hsl(186, 100%, 69%) 100%
-  ) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  color: transparent !important;
-  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 100%) !important;
-  mask-image: linear-gradient(90deg, #000 0%, #000 100%) !important;
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 100%);
+  mask-image: linear-gradient(90deg, #000 0%, #000 100%);
 }
 
 .for-gradient-card1 .cards1-card1 p {
@@ -163,20 +163,20 @@ body {
   );
 }
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
   .for-gradient-card2 {
     width: 100%;
   }
-}
+} */
 
 .for-gradient-card2 .cards1-card1 {
-  width: 99% !important;
+  width: 99%;
   background: #182329;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
-  border: none !important;
+  border: none;
   padding: 20px;
   height: 99%;
 }
@@ -193,19 +193,19 @@ body {
 }
 
 .for-gradient-card2 .cards1-card1 h2 {
-  font-family: "Roboto" !important;
-  margin-bottom: 15px !important;
-  font-size: 24px !important;
+  font-family: "Roboto";
+  margin-bottom: 15px;
+  font-size: 24px;
   background: linear-gradient(
     90deg,
     hsl(294, 100%, 55%) 0%,
     hsl(197, 100%, 63%) 100%
-  ) !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  color: transparent !important;
-  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 100%) !important;
-  mask-image: linear-gradient(90deg, #000 0%, #000 100%) !important;
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 100%);
+  mask-image: linear-gradient(90deg, #000 0%, #000 100%);
 }
 
 .for-gradient-card2 .cards1-card1 p {
@@ -233,20 +233,20 @@ body {
   );
 }
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
   .for-gradient-card3 {
     width: 100%;
   }
-}
+} */
 
 .for-gradient-card3 .cards1-card1 {
-  width: 99% !important;
+  width: 99%;
   background: #182329;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
-  border: none !important;
+  border: none;
   padding: 20px;
   height: 99%;
 }
@@ -263,19 +263,19 @@ body {
 }
 
 .for-gradient-card3 .cards1-card1 h2 {
-  font-family: "Roboto" !important;
-  margin-bottom: 15px !important;
-  font-size: 24px !important;
+  font-family: "Roboto";
+  margin-bottom: 15px;
+  font-size: 24px;
   background: linear-gradient(
     90deg,
     hsl(339, 100%, 55%) 0%,
     hsl(197, 100%, 64%) 100%
   );
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  color: transparent !important;
-  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 100%) !important;
-  mask-image: linear-gradient(90deg, #000 0%, #000 100%) !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 100%);
+  mask-image: linear-gradient(90deg, #000 0%, #000 100%);
 }
 
 .for-gradient-card3 .cards1-card1 p {
@@ -303,20 +303,20 @@ body {
   );
 }
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
   .for-gradient-card4 {
     width: 100%;
   }
-}
+} */
 
 .for-gradient-card4 .cards1-card1 {
-  width: 99% !important;
+  width: 99%;
   background: #182329;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(20px);
   border-radius: 10px;
-  border: none !important;
+  border: none;
   padding: 20px;
   height: 99%;
 }
@@ -333,19 +333,19 @@ body {
 }
 
 .for-gradient-card4 .cards1-card1 h2 {
-  font-family: "Roboto" !important;
-  margin-bottom: 15px !important;
-  font-size: 24px !important;
+  font-family: "Roboto";
+  margin-bottom: 15px;
+  font-size: 24px;
   background: linear-gradient(
     90deg,
     hsl(186, 100%, 69%) 0%,
     hsl(217, 100%, 50%) 100%
   );
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-  color: transparent !important;
-  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 100%) !important;
-  mask-image: linear-gradient(90deg, #000 0%, #000 100%) !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-mask-image: linear-gradient(90deg, #000 0%, #000 100%);
+  mask-image: linear-gradient(90deg, #000 0%, #000 100%);
 }
 
 .for-gradient-card4 .cards1-card1 p {
@@ -356,22 +356,22 @@ body {
 
 .for-gradient-card1,
 .for-gradient-card3 {
-  transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out;
 }
 
 .for-gradient-card1:hover,
 .for-gradient-card3:hover {
-  transform: translateX(-10px) !important;
+  transform: translateX(-10px);
 }
 
 .for-gradient-card2,
 .for-gradient-card4 {
-  transition: 0.3s ease-in-out !important;
+  transition: 0.3s ease-in-out;
 }
 
 .for-gradient-card2:hover,
 .for-gradient-card4:hover {
-  transform: translateX(10px) !important;
+  transform: translateX(10px);
 }
 
 .Work-content {
@@ -450,23 +450,20 @@ body {
 
 .mySwipperTwo {
   width: 90%;
-  height: 300px !important;
+  height: 300px;
 }
 
 .Menu_top {
   position: absolute;
-  top: 70px;
-  right: 120px;
+  top: 60px;
+  right: 90px;
 
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 180px;
-  height: 30px;
+  width: 350px;
+  height: 60px;
   z-index: 100;
-  background-color: #18aa01;
-  border-radius: 20px;
-  border: 1px solid #18aa01;
 }
 
 .Menu_phone {
@@ -474,12 +471,28 @@ body {
   justify-content: center;
   align-items: center;
   gap: 12px;
+  width: 180px;
+  height: 40px;
+  border-radius: 18px;
+  background-color: #18aa01;
+
+  position: absolute;
+  top: 8%;
+  right: 0px;
+}
+
+.Menu_phone span {
+  font-size: 14px;
 }
 
 .Menu_lang {
   position: absolute;
-  top: -11px;
+  top: 0px;
   right: 220px;
+}
+
+.logo {
+  margin-top: 40px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Concert+One&display=swap");
@@ -612,7 +625,7 @@ svg {
   }
 }
 
-@media screen and (max-width: 376px) {
+/* @media screen and (max-width: 376px) {
   .Menu_lang {
     top: -5px;
     right: 60px;
@@ -642,13 +655,13 @@ svg {
     display: none;
   }
 
-  .logo img {
+  G img {
     margin-top: -20px;
     width: 50px;
   }
 
   .Section .Home {
-    height: 1000px !important;
+    height: 1000px;
   }
   .Home-content .About {
     height: auto;
@@ -656,7 +669,7 @@ svg {
 
   .cards1-wrapper {
     width: 320px;
-    padding: 0 !important;
+    padding: 0;
   }
 
   .for-gradient-card1,
@@ -669,18 +682,18 @@ svg {
     border-radius: 11px;
   }
   .cards1-card1 {
-    width: 100% !important;
+    width: 100%;
   }
   .cards1-card1 .gradiented-2 {
-    width: 100% !important;
+    width: 100%;
   }
 
   .for-gradient-card1 .cards1-card1 .c1-c1-image,
   .for-gradient-card2 .cards1-card1 .c1-c1-image,
   .for-gradient-card3 .cards1-card1 .c1-c1-image,
   .for-gradient-card4 .cards1-card1 .c1-c1-image {
-    width: 25px !important;
-    height: 25px !important;
+    width: 25px;
+    height: 25px;
     margin-bottom: 20px;
   }
 
@@ -691,7 +704,7 @@ svg {
     position: absolute;
     top: 25px;
     left: 55px;
-    font-size: 16px !important;
+    font-size: 16px;
   }
 
   #lang_card1,
@@ -706,7 +719,7 @@ svg {
   .for-gradient-card2:hover,
   .for-gradient-card3:hover,
   .for-gradient-card4:hover {
-    transform: translateX(0) !important;
+    transform: translateX(0);
   }
 
   .Work-content {
@@ -726,26 +739,26 @@ svg {
   }
 
   .our-work-wrapper {
-    grid-template-columns: 100% !important;
-    gap: 20px !important;
+    grid-template-columns: 100%;
+    gap: 20px;
     padding: 0 10px;
   }
 
   .ow-card {
-    width: 340px !important;
-    height: 60px !important;
-    border-radius: 6px !important;
+    width: 340px;
+    height: 60px;
+    border-radius: 6px;
   }
 
   .ow-card::before {
     content: "";
     position: absolute;
-    height: 40px !important;
-    width: 5px !important;
+    height: 40px;
+    width: 5px;
   }
 
   .ow-card:hover {
-    transform: translateX(6px) !important;
+    transform: translateX(6px);
   }
 
   .ow-card p {
@@ -756,9 +769,9 @@ svg {
     font-size: 18px;
     padding: 0;
   }
-}
+} */
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .Menu_lang {
     top: -4px;
     right: 60px;
@@ -795,7 +808,7 @@ svg {
 
   .cards1-wrapper {
     width: 320px;
-    padding: 0 !important;
+    padding: 0;
   }
 
   .for-gradient-card1,
@@ -808,18 +821,18 @@ svg {
     border-radius: 11px;
   }
   .cards1-card1 {
-    width: 100% !important;
+    width: 100%;
   }
   .cards1-card1 .gradiented-2 {
-    width: 100% !important;
+    width: 100%;
   }
 
   .for-gradient-card1 .cards1-card1 .c1-c1-image,
   .for-gradient-card2 .cards1-card1 .c1-c1-image,
   .for-gradient-card3 .cards1-card1 .c1-c1-image,
   .for-gradient-card4 .cards1-card1 .c1-c1-image {
-    width: 25px !important;
-    height: 25px !important;
+    width: 25px;
+    height: 25px;
     margin-bottom: 20px;
   }
 
@@ -830,7 +843,7 @@ svg {
     position: absolute;
     top: 25px;
     left: 55px;
-    font-size: 16px !important;
+    font-size: 16px;
   }
 
   #lang_card1,
@@ -845,7 +858,7 @@ svg {
   .for-gradient-card2:hover,
   .for-gradient-card3:hover,
   .for-gradient-card4:hover {
-    transform: translateX(0) !important;
+    transform: translateX(0);
   }
 
   .Work-content {
@@ -865,26 +878,26 @@ svg {
   }
 
   .our-work-wrapper {
-    grid-template-columns: 100% !important;
-    gap: 20px !important;
+    grid-template-columns: 100%;
+    gap: 20px;
     padding: 0 10px;
   }
 
   .ow-card {
-    width: 280px !important;
-    height: 60px !important;
-    border-radius: 6px !important;
+    width: 280px;
+    height: 60px;
+    border-radius: 6px;
   }
 
   .ow-card::before {
     content: "";
     position: absolute;
-    height: 40px !important;
-    width: 5px !important;
+    height: 40px;
+    width: 5px;
   }
 
   .ow-card:hover {
-    transform: translateX(6px) !important;
+    transform: translateX(6px);
   }
 
   .ow-card p {
@@ -895,4 +908,4 @@ svg {
     font-size: 18px;
     padding: 0;
   }
-}
+} */

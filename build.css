@@ -69,7 +69,7 @@ body {
   position: relative;
 }
 [hidden] {
-  display: none !important;
+  display: none;
 }
 menu,
 ol,
@@ -134,7 +134,7 @@ a {
   left: 0;
   width: 100%;
 }
-@media (max-height: 600px), screen and (max-width: 767px) {
+/* @media (max-height: 600px), screen and (max-width: 767px) {
   .Container {
     height: auto;
   }
@@ -142,7 +142,7 @@ a {
   .Content {
     position: relative;
   }
-}
+} */
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
@@ -209,7 +209,7 @@ a {
 .gg-symbol--11 {
   width: 308px;
 }
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .gg {
     height: 10.5px;
     margin-bottom: 7px;
@@ -314,13 +314,13 @@ a {
   .gg-symbol--11 {
     width: 154px;
   }
-}
+} */
 .Arrow {
   position: absolute;
-  left: -50px;
+  left: 50px;
+  top: 0px;
   width: 1px;
   background: #384750;
-  top: 0;
   height: calc(100% - 8px);
   transform-origin: 0 0;
 }
@@ -340,7 +340,12 @@ a {
   content: 0;
   display: none;
 }
-@media screen and (max-width: 1024px) {
+
+.arrow-service {
+  top: 0px;
+  height: 700px;
+}
+/* @media screen and (max-width: 1024px) {
   .Arrow {
     left: -25px;
   }
@@ -349,7 +354,7 @@ a {
   .Arrow {
     display: none;
   }
-}
+} */
 .Socials,
 .Title {
   position: relative;
@@ -369,7 +374,7 @@ a {
   position: relative;
   left: 9px;
 }
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .Title h1 {
     font-size: 48px;
   }
@@ -386,7 +391,7 @@ a {
     font-size: 16px;
     left: 4.5px;
   }
-}
+} */
 .WorkItem {
   position: relative;
   line-height: 35px;
@@ -443,7 +448,7 @@ a {
   transform: translateY(-50%) scaleX(0.99999);
   transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1) 0.04s;
 }
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .WorkItem {
     line-height: 26.25px;
   }
@@ -492,7 +497,7 @@ a {
     position: relative;
     top: -4px;
   }
-}
+} */
 .Footer {
   position: fixed;
   right: 30px;
@@ -516,7 +521,7 @@ a {
 .Footer a:last-child {
   margin-right: 0;
 }
-@media (max-height: 500px), screen and (max-width: 767px) {
+/* @media (max-height: 500px), screen and (max-width: 767px) {
   .Footer {
     position: relative;
     right: auto;
@@ -549,7 +554,7 @@ a {
     border-radius: 7px;
     background: #ff6c6a;
   }
-}
+} */
 .Header {
   position: fixed;
   z-index: 10;
@@ -574,7 +579,7 @@ a {
 .Menu {
   position: fixed;
   right: 30px;
-  top: 30px;
+  top: 65px;
   z-index: 10;
   text-align: right;
   transform-origin: bottom right;
@@ -609,20 +614,21 @@ a {
 .Menu nav a:first-child {
   margin-left: 0;
 }
-@media (max-height: 600px), screen and (max-width: 767px) {
+/* @media (max-height: 600px), screen and (max-width: 767px) {
   .Menu {
     display: none;
   }
-}
+} */
 .About {
+  display: flex;
   position: relative;
   height: 120vh;
 }
 .About-content {
-  position: absolute;
-  left: 100px;
-  top: 50%;
-  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .About h3 {
   font-size: 36px;
@@ -644,7 +650,7 @@ a {
 .About a:hover {
   opacity: 1;
 }
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .About-content {
     left: 50px;
     padding-right: 50px;
@@ -673,26 +679,25 @@ a {
     width: calc(100% - 40px);
     margin: auto;
   }
-}
+} */
 .Home {
   position: relative;
   width: 100%;
   height: 1000px;
-  margin-top: 800px;
-  /* border: 1px solid red; */
-  /* margin-bottom: 50px; */
+  margin-top: 0px;
 }
 .Home-content {
-  position: absolute;
-  top: 45%;
-  left: 100px;
-  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
   padding-top: 50px;
 }
 .Home .Title {
   margin: 30px 0 0 42px;
 }
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .Home-content {
     left: 50px;
   }
@@ -713,10 +718,11 @@ a {
     margin: auto;
     padding-top: 200px;
   }
-}
+} */
 .Work {
   position: relative;
-  padding: 100px 0;
+  padding: 0;
+  margin: -300px 0 200px 0;
 }
 .Work ul {
   padding: 40px 0 80px;
@@ -725,8 +731,13 @@ a {
   padding-bottom: 0;
 }
 .Work-content {
-  position: relative;
-  margin: 0 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 200px;
 }
 .Work-content h3 {
   font-weight: 600;
@@ -748,7 +759,7 @@ a {
   position: relative;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .Work {
     padding: 100px 0 0;
   }
@@ -760,7 +771,7 @@ a {
     height: 7px;
     top: -2px;
   }
-}
+} */
 
 .section-header {
   display: block;
@@ -779,6 +790,12 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
+}
+
+.carousel {
+  width: 1200px;
+  height: 650px;
+  margin: 0 auto;
 }
 
 .Carousel-slider {
@@ -802,7 +819,7 @@ a:visited {
   position: relative;
   transform-style: preserve-3d;
   transform-origin: 0 50%;
-  perspective: 800px !important;
+  perspective: 800px;
 }
 
 .slider-item {
@@ -820,31 +837,31 @@ a:visited {
 
 .superHero1 {
   background-image: url(./assets/images/logos/ag.jpg);
-  border-radius: 50px !important;
+  border-radius: 50px;
 }
 .superHero2 {
   background-image: url(./assets/images/logos/DasHaus.png);
-  border-radius: 50px !important;
+  border-radius: 50px;
 }
 .superHero3 {
   background-image: url(./assets/images/logos/momentum.png);
-  border-radius: 50px !important;
+  border-radius: 50px;
 }
 .superHero4 {
   background-image: url(./assets/images/logos/outdoor.jpg);
-  border-radius: 50px !important;
+  border-radius: 50px;
 }
 .superHero5 {
   background-image: url(./assets/images/logos/stars.jpg);
-  border-radius: 50px !important;
+  border-radius: 50px;
 }
 .superHero6 {
   background-image: url(./assets/images/logos/tegeta.png);
-  border-radius: 50px !important;
+  border-radius: 50px;
 }
 .superHero7 {
   background-image: url(./assets/images/img.jpg);
-  border-radius: 50px !important;
+  border-radius: 50px;
 }
 
 #lang_card1,
@@ -862,16 +879,16 @@ a:visited {
 #lang_card-title2,
 #lang_card-title3,
 #lang_card-title4 {
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Roboto", sans-serif;
 }
 
 .carousel {
   margin-bottom: 0px;
 }
 
-@media screen and (max-width: 376px) {
+/* @media screen and (max-width: 376px) {
   .Home {
-    height: 1400px !important;
+    height: 1400px;
     margin-top: 450px;
   }
 
@@ -888,7 +905,7 @@ a:visited {
   }
 
   .cards1-wrapper {
-    width: 375px !important;
+    width: 375px;
 
   }
 
@@ -897,13 +914,13 @@ a:visited {
   }
 
   .Work-content { 
-    width: 375px !important;
+    width: 375px;
     padding: 0;
-    margin-top: 200px !important;
+    margin-top: 200px;
   }
 
   #lang_service {
-    font-size: 24px !important;
+    font-size: 24px;
   }
 
   .Carousel-slider {
@@ -913,17 +930,17 @@ a:visited {
 
   .slider-wrapper {
     margin-top: -50px;
-    perspective: 500px !important;
+    perspective: 500px;
   }
 
   .slider-item {
-    width: 160px !important;
-    height: 160px !important;
-    border-radius: 20px !important;
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
   }
-}
+} */
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
   .About {
     width: 320px;
     margin: 0 auto;
@@ -953,11 +970,11 @@ a:visited {
 
   .Work-content {
     margin: 0 auto;
-    margin-top: 300px !important;
+    margin-top: 300px;
   }
 
   #lang_service {
-    font-size: 18px !important;
+    font-size: 18px;
   }
 
   .client-wrapper {
@@ -971,12 +988,12 @@ a:visited {
 
   .slider-wrapper {
     margin-top: -50px;
-    perspective: 600px !important;
+    perspective: 600px;
   }
 
   .slider-item {
-    width: 120px !important;
-    height: 120px !important;
-    border-radius: 20px !important;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
   }
-}
+} */
