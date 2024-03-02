@@ -3,6 +3,11 @@
     overflow-x: hidden;
   }
 
+  .gl,
+  .voil {
+    width: 400px;
+  }
+
   .carousel {
     width: 850px;
     height: 450px;
@@ -212,6 +217,11 @@
 @media screen and (max-width: 769px) {
   body {
     overflow-x: hidden;
+  }
+
+  .gl,
+  .voil {
+    width: 700px;
   }
 
   .carousel {
@@ -555,6 +565,11 @@
 @media screen and (max-width: 431px) {
   body {
     overflow-x: hidden;
+  }
+
+  .gl,
+  .Voile {
+    width: 420px;
   }
 
   .carousel {
@@ -921,6 +936,11 @@
     overflow-x: hidden;
   }
 
+  .gl,
+  .voil {
+    width: 400px;
+  }
+
   .carousel {
     width: 380px;
   }
@@ -1059,6 +1079,11 @@
 @media screen and (max-width: 376px) {
   body {
     overflow-x: hidden;
+  }
+
+  .gl,
+  .voil {
+    width: 370px;
   }
 
   .carousel {
@@ -1334,6 +1359,11 @@
 @media screen and (max-width: 320px) {
   body {
     overflow-x: hidden;
+  }
+
+  .gl,
+  .voil {
+    width: 300px;
   }
 
   .carousel {
