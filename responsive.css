@@ -756,6 +756,14 @@
     height: 700px;
   }
 
+  .order-item__left-top {
+    width: 350px;
+  }
+
+  .order-item__left {
+    width: 100%;
+  }
+
   .order-item__title {
     font-size: 32px;
     line-height: 32px;
