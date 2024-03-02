@@ -1,4 +1,8 @@
 @media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .carousel {
     width: 850px;
     height: 450px;
@@ -206,6 +210,10 @@
 }
 
 @media screen and (max-width: 769px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .carousel {
     width: 600px;
     height: 300px;
@@ -545,6 +553,10 @@
 }
 
 @media screen and (max-width: 426px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .carousel {
     width: 400px;
     height: 200px;
@@ -904,7 +916,151 @@
   }
 }
 
+@media screen and (max-width: 413px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .carousel {
+    width: 380px;
+  }
+
+  .Home {
+    position: relative;
+    width: 100%;
+    height: 1300px;
+    margin-top: 250px;
+    padding: 0 30px;
+  }
+
+  .Work {
+    margin-top: 0px;
+  }
+
+  .Work-content {
+    margin-top: 0;
+  }
+
+  .client-wrapper {
+    width: 380px;
+    height: 380px;
+    margin-bottom: 50px;
+  }
+
+  .slider-wrapper {
+    perspective: 400px !important;
+  }
+
+  .wrapper {
+    width: 380px;
+    padding: 0;
+  }
+
+  .order-item__title {
+    font-size: 24px;
+    line-height: 24px;
+    width: 320px;
+  }
+
+  .order-item__left-bottom {
+    width: 320px;
+    height: 200px;
+    padding-top: 0px;
+  }
+
+  .order-item__right {
+    width: 320px;
+    height: 400px;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  .order-item__form {
+    width: 280px;
+  }
+
+  .wrapper-r {
+    height: 600px;
+  }
+
+  .tub {
+    width: 380px;
+    margin: 0 auto;
+  }
+
+  .tubix-section {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .ts-left {
+    width: 360px;
+    margin-left: 10px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact {
+    width: 180px;
+  }
+
+  .contact h1 {
+    font-size: 16px;
+  }
+  
+  .contact a {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+  .onefin-sm-wrapper {
+    align-items: flex-start;
+    width: 200px;
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .ofw-wrapper a {
+    width: 35px;
+    height: 35px;
+  }
+
+  .ofw-wrapper a svg {
+    font-size: 20px;
+  }
+  
+  #lang_socialMedia {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .ts-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-top: 30px;
+  }
+
+  #lang_address {
+    font-size: 10px;
+    line-height: 16px;
+    margin: 0 0 20px 10px;
+  }
+
+  .ts-video {
+    width: 340px;
+    height: 200px;
+    margin: 0 0 20px 60px;
+  }
+}
+
 @media screen and (max-width: 376px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .carousel {
     width: 350px;
   }
@@ -1176,6 +1332,10 @@
 }
 
 @media screen and (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .carousel {
     width: 300px;
     height: 160px;
