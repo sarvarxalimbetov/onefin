@@ -31,14 +31,6 @@ body {
   gap: 25px;
 }
 
-/* @media (max-width: 1313px) {
-  .cards1-wrapper .cards-wrap2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-} */
-
 .cards1-wrapper .cards-wrap2 .cards1-card1 {
   width: 99%;
   background: #182329;
@@ -92,12 +84,6 @@ body {
     hsl(217, 100%, 50%) 100%
   );
 }
-
-/* @media (max-width: 650px) {
-  .for-gradient-card1 {
-    width: 100%;
-  }
-} */
 
 .for-gradient-card1 .cards1-card1 {
   width: 99%;
@@ -163,12 +149,6 @@ body {
   );
 }
 
-/* @media (max-width: 650px) {
-  .for-gradient-card2 {
-    width: 100%;
-  }
-} */
-
 .for-gradient-card2 .cards1-card1 {
   width: 99%;
   background: #182329;
@@ -233,12 +213,6 @@ body {
   );
 }
 
-/* @media (max-width: 650px) {
-  .for-gradient-card3 {
-    width: 100%;
-  }
-} */
-
 .for-gradient-card3 .cards1-card1 {
   width: 99%;
   background: #182329;
@@ -302,12 +276,6 @@ body {
     hsl(186, 100%, 69%) 100%
   );
 }
-
-/* @media (max-width: 650px) {
-  .for-gradient-card4 {
-    width: 100%;
-  }
-} */
 
 .for-gradient-card4 .cards1-card1 {
   width: 99%;
@@ -375,7 +343,7 @@ body {
 }
 
 .Work-content {
-  margin-top: 200px;
+  margin-top: 400px;
 }
 
 .our-work {
@@ -573,7 +541,6 @@ svg {
       border-radius: 100%;
       transform: scale(1.15);
       transition: transform 150ms ease;
-      /* animation-name: pulse; */
       animation-duration: 0.5s;
       animation-iteration-count: infinite;
       animation-direction: alternate;
@@ -624,288 +591,3 @@ svg {
     transform: scaleX(1.5);
   }
 }
-
-/* @media screen and (max-width: 376px) {
-  .Menu_lang {
-    top: -5px;
-    right: 60px;
-  }
-
-  .tabber label {
-    font-size: 13px;
-    padding: 0.6rem;
-  }
-
-  .Menu_top {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 50px;
-    height: 25px;
-  }
-
-  .Menu_phone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .Menu_phone span {
-    display: none;
-  }
-
-  G img {
-    margin-top: -20px;
-    width: 50px;
-  }
-
-  .Section .Home {
-    height: 1000px;
-  }
-  .Home-content .About {
-    height: auto;
-  } 
-
-  .cards1-wrapper {
-    width: 320px;
-    padding: 0;
-  }
-
-  .for-gradient-card1,
-  .for-gradient-card2,
-  .for-gradient-card3,
-  .for-gradient-card4 {
-    position: relative;
-    width: 85%;
-    padding: 2px 1px;
-    border-radius: 11px;
-  }
-  .cards1-card1 {
-    width: 100%;
-  }
-  .cards1-card1 .gradiented-2 {
-    width: 100%;
-  }
-
-  .for-gradient-card1 .cards1-card1 .c1-c1-image,
-  .for-gradient-card2 .cards1-card1 .c1-c1-image,
-  .for-gradient-card3 .cards1-card1 .c1-c1-image,
-  .for-gradient-card4 .cards1-card1 .c1-c1-image {
-    width: 25px;
-    height: 25px;
-    margin-bottom: 20px;
-  }
-
-  .for-gradient-card1 .cards1-card1 h2,
-  .for-gradient-card2 .cards1-card1 h2,
-  .for-gradient-card3 .cards1-card1 h2,
-  .for-gradient-card4 .cards1-card1 h2 {
-    position: absolute;
-    top: 25px;
-    left: 55px;
-    font-size: 16px;
-  }
-
-  #lang_card1,
-  #lang_card2,
-  #lang_card3,
-  #lang_card4 {
-    width: 98%;
-    font-size: 12px;
-  }
-
-  .for-gradient-card1:hover,
-  .for-gradient-card2:hover,
-  .for-gradient-card3:hover,
-  .for-gradient-card4:hover {
-    transform: translateX(0);
-  }
-
-  .Work-content {
-    margin: 0;
-    margin-top: 50px;
-    width: 320px;
-    padding: 0 10px;
-  }
-
-  .Work-content section {
-    width: 100%;
-  }
-
-  .our-work,
-  .our-work-wrapper {
-    width: 100%;
-  }
-
-  .our-work-wrapper {
-    grid-template-columns: 100%;
-    gap: 20px;
-    padding: 0 10px;
-  }
-
-  .ow-card {
-    width: 340px;
-    height: 60px;
-    border-radius: 6px;
-  }
-
-  .ow-card::before {
-    content: "";
-    position: absolute;
-    height: 40px;
-    width: 5px;
-  }
-
-  .ow-card:hover {
-    transform: translateX(6px);
-  }
-
-  .ow-card p {
-    font-size: 15px;
-  }
-
-  #lang_partner {
-    font-size: 18px;
-    padding: 0;
-  }
-} */
-
-/* @media screen and (max-width: 320px) {
-  .Menu_lang {
-    top: -4px;
-    right: 60px;
-  }
-
-  .tabber label {
-    font-size: 13px;
-    padding: 0.6rem;
-  }
-
-  .Menu_top {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 50px;
-    height: 25px;
-  }
-
-  .Menu_phone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .Menu_phone span {
-    display: none;
-  }
-
-  .logo img {
-    margin-top: -20px;
-    width: 50px;
-  }
-
-  .cards1-wrapper {
-    width: 320px;
-    padding: 0;
-  }
-
-  .for-gradient-card1,
-  .for-gradient-card2,
-  .for-gradient-card3,
-  .for-gradient-card4 {
-    position: relative;
-    width: 85%;
-    padding: 2px 1px;
-    border-radius: 11px;
-  }
-  .cards1-card1 {
-    width: 100%;
-  }
-  .cards1-card1 .gradiented-2 {
-    width: 100%;
-  }
-
-  .for-gradient-card1 .cards1-card1 .c1-c1-image,
-  .for-gradient-card2 .cards1-card1 .c1-c1-image,
-  .for-gradient-card3 .cards1-card1 .c1-c1-image,
-  .for-gradient-card4 .cards1-card1 .c1-c1-image {
-    width: 25px;
-    height: 25px;
-    margin-bottom: 20px;
-  }
-
-  .for-gradient-card1 .cards1-card1 h2,
-  .for-gradient-card2 .cards1-card1 h2,
-  .for-gradient-card3 .cards1-card1 h2,
-  .for-gradient-card4 .cards1-card1 h2 {
-    position: absolute;
-    top: 25px;
-    left: 55px;
-    font-size: 16px;
-  }
-
-  #lang_card1,
-  #lang_card2,
-  #lang_card3,
-  #lang_card4 {
-    width: 98%;
-    font-size: 12px;
-  }
-
-  .for-gradient-card1:hover,
-  .for-gradient-card2:hover,
-  .for-gradient-card3:hover,
-  .for-gradient-card4:hover {
-    transform: translateX(0);
-  }
-
-  .Work-content {
-    margin: 0;
-    margin-top: 50px;
-    width: 320px;
-    padding: 0 10px;
-  }
-
-  .Work-content section {
-    width: 100%;
-  }
-
-  .our-work,
-  .our-work-wrapper {
-    width: 100%;
-  }
-
-  .our-work-wrapper {
-    grid-template-columns: 100%;
-    gap: 20px;
-    padding: 0 10px;
-  }
-
-  .ow-card {
-    width: 280px;
-    height: 60px;
-    border-radius: 6px;
-  }
-
-  .ow-card::before {
-    content: "";
-    position: absolute;
-    height: 40px;
-    width: 5px;
-  }
-
-  .ow-card:hover {
-    transform: translateX(6px);
-  }
-
-  .ow-card p {
-    font-size: 15px;
-  }
-
-  #lang_partner {
-    font-size: 18px;
-    padding: 0;
-  }
-} */

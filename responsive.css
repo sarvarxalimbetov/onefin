@@ -80,7 +80,7 @@
   .Work-content {
     width: 1000px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 300px;
   }
 
   .Work-content section {
@@ -340,6 +340,7 @@
   .Work-content {
     width: 700px;
     margin: 0 auto;
+    margin-top: 100px;
   }
 
   .Work-content section {
@@ -1167,7 +1168,7 @@
   }
 
   .Work-content {
-    margin-top: 100px;
+    margin-top: -80px;
   }
 
   #lang_partner {
@@ -1434,7 +1435,7 @@
   }
 
   .Work-content {
-    margin-top: 150px;
+    margin-top: 0px;
   }
 
   .our-work .our-work-wrapper .ow-card {
